@@ -1,0 +1,46 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "name": "Achillea Desert Eve Deep Rose",
+            "colour": "Purple",
+            "picture": "https://i.postimg.cc/rwCGrHCh/Achillea-Desert-Eve-Deep-Rose.jpg",
+            "description": "Part of the Desert Eve Series, this is one of the earliest blooming Yarrows. It is a wonderfully bright herbaceous perennial that produces large clusters of bright pink flowers. It blooms profusely in late spring for several weeks, and each flower has a fluffy yellow center. This flower is aromatic, semi-evergreen, and compliments most other blooms in any setting. Butterflies adore all Yarrows, so this is a must for any wild or cottage garden."
+        },
+        {
+            "id": 2,
+            "name": "African Daisy",
+            "colour": "Pink & White",
+            "picture": "https://i.postimg.cc/907ZFgQY/African-Daisy.jpg",
+            "description": "This is an excellent choice for anyone looking for bright, beautiful blooms all through summer into fall. There are around 70 species of Osteospermum and an increasing number of cultivars, and the Royal Horticultural Society (RHS) lists about 900 varieties. One stem carries a single flower, comprising a central disc surrounded by bright petals. The petals of some species are variegated in color, offering the most stunning bloom. Most petals are flat, but some produce spoon-shaped petals, such as the Osteospermum Sunny Philip. Depending on what zone you live in, different species can be annuals or perennials."
+        },
+        {
+            "id": 3,
+            "name": "African Lily",
+            "colour": "Neon Purple",
+            "picture": "https://i.postimg.cc/J7Dbq05H/African-Lily.jpg",
+            "description": "Other names include the Star of Bethlehem or the Lily of the Nile, despite only being native to the South of Africa. These evergreen perennials reach heights of up to one meter and produce erect stems carrying a globe-shaped display of blue, lilac, or white blooms. Each globe has showy trumpet-shaped flowers that do well in salty sea winds, making them ideal for a coastal garden."
+        },
+        {
+            "id": 4,
+            "name": "African Marigold",
+            "colour": "Yellow",
+            "picture": "https://i.postimg.cc/k4DWLgrZ/African-Marigold.jpg",
+            "description": "Sometimes known as the Big Marigold, this bushy annual is prized for its large double flowers. Each blossom measures two to four inches across and comes in orange, yellow, and white shades. They are long-blooming from early summer until the first frost, and they need minor assistance to thrive. They are ideal for beds, borders, and patio pots."
+        },
+        {
+            "id": 5,
+            "name": "Amaryllis",
+            "colour": "Light Red",
+            "picture": "https://i.postimg.cc/fLFYsQDb/Amaryllis.jpg",
+            "description": "This is a popular bulb given as a gift around the Christmas holidays, thanks to their large, brightly colored blooms supported by large stems. There are five types of Amaryllis; large flowering, double flowering, small flowering, cybister, and trumpet. The most popular is the large flowering, single flower Amaryllis, which grows up to 10 inches tall. The bigger the bulb, the more stems and flowers they produce. They may be planted outdoors (deep south only) and are easy to bring into bloom. Amaryllis Clown is an award-winning old favorite that is reminiscent of candy canes."
+        },
+        {
+            "id": 6,
+            "name": "American Lotus",
+            "colour": "White & Yellow",
+            "picture": "https://i.postimg.cc/SKgWZzPC/American-Lotus.jpg",
+            "description": "This might not be as popular as the Sacred Lotus that is more often seen in cultivation. But these flowers provide a blanket of elegance thanks to their pure white petals and a yellow center. They grow up to 12 inches across and are a sight to behold. It is a marginal aquatic perennial that also produces large umbrella-like leaves. They are native to eastern North America."
+        }
+    ]
+}

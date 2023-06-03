@@ -1,23 +1,45 @@
-import logo from './logo.svg';
+import { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
+  const [flowers , setFlowers] = useState({})
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    fetch('https://sticky-stem.onrender.com/items')
+      .then(res =>
+         res.json()
+  )
+      .then(data => {
+        console.log(data.results)
+        setFlowers(data.results)
+        setIsLoading(false)
+      }
+      )
+      .catch(err => {
+        console.log(err.message);
+      })
+  }, [])
+  
+  // function App(){
+  //   const [user_name, setName] = userState("")
+  //   const [email, setEmail] = userState("")
+  //   const [user_password, setPassword] = userState("")
+    
+  //   const addUser = () => {
+  //     Axios.post('https://sticky-stem.onrender.com/register'), {
+  //       user_name: user_name,
+  //       email: email,
+  //       user_password: usr_password,
+  //     }
+  //   }
+  // }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="content"> 
+        {isLoading && <div>Loading...</div>}
+        <h1>{flowers.user_name}</h1>
+      </div>
     </div>
   );
 }
