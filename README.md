@@ -61,6 +61,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+Languages & tools
+HTML
+Jade for some templating.
+JavaScript
+JSHint is used to prevent JavaScript error.
+JSCS is used to check coding conventions.
+Browserify to handle allow us to write our client-side scripts with es6 syntax thanks to es6ify.
+React is used for UI.
+CSS
+cssnext is used to write futureproof CSS for CSS vendor prefix under the hood).
+
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
