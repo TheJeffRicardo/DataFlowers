@@ -12,16 +12,16 @@ function App() {
   const [descript, setDescript] = useState("")
 
   const addUser = async () => {
-    await Axios.post(`http://localhost:4000/item`, {
-      idno: idno,
+    await Axios.post(`https://sticky-stem.onrender.com/item`, {
       flowername: flowername,
       colour: colour,
       picture: picture,
       descript: descript
   })
+  window.location.reload();
   }
   const getFlowers = async () => {
-    await Axios.get("http://localhost:4000/items")
+    await Axios.get("https://sticky-stem.onrender.com/items")
     .then((res) => {
       console.log(res.data.results)
       setIsLoading(false)
@@ -46,7 +46,7 @@ function App() {
       setDescript(identity.descript)
   }
   const update = async () => {
-    await Axios.put(`http://localhost:4000/item/${idno}`, {
+    await Axios.put(`https://sticky-stem.onrender.com/item/${idno}`, {
     flowername: flowername,
     colour: colour,
     picture: picture,
@@ -55,7 +55,7 @@ function App() {
   window.location.reload();
   }
   const deleteFlower = async () => {
-    await Axios.delete(`http://localhost:4000/item/${idno}`)
+    await Axios.delete(`https://sticky-stem.onrender.com/item/${idno}`)
     .then((res) => {
       console.warn(res);
     })
@@ -70,13 +70,13 @@ function App() {
           <div className='d-flex'>
           <div className='d-flex flex-column'>
           <label>Flower Name:</label>
-        <input type="text" value={flowername} onChange={(e)=>{
+        <input type="text"  onChange={(e)=>{
             setFlowername(e.target.value)
           }} />
           </div>
           <div className='d-flex flex-column'>
           <label>Colour</label>
-        <input type="text" value={colour} onChange={(e)=>{
+        <input type="text"  onChange={(e)=>{
             setColour(e.target.value)
           }} />
           </div>
@@ -84,13 +84,13 @@ function App() {
          <div className='d-flex'>
          <div className='d-flex flex-column'>
          <label>Picture</label>
-        <input type="text" value={picture} onChange={(e)=>{
+        <input type="text"  onChange={(e)=>{
             setPicture(e.target.value)
           }} />
          </div>
           <div className='d-flex flex-column'>
           <label>Description</label>
-        <input type="text" value={descript} onChange={(e)=>{
+        <input type="text"  onChange={(e)=>{
             setDescript(e.target.value)
           }} />
           </div>
