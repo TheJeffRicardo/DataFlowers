@@ -70,13 +70,13 @@ function App() {
           <div className='d-flex'>
           <div className='d-flex flex-column'>
           <label>Flower Name:</label>
-        <input type="text"  onChange={(e)=>{
+        <input type="text" onChange={(e)=>{
             setFlowername(e.target.value)
           }} />
           </div>
           <div className='d-flex flex-column'>
           <label>Colour</label>
-        <input type="text"  onChange={(e)=>{
+        <input type="text" onChange={(e)=>{
             setColour(e.target.value)
           }} />
           </div>
@@ -84,13 +84,13 @@ function App() {
          <div className='d-flex'>
          <div className='d-flex flex-column'>
          <label>Picture</label>
-        <input type="text"  onChange={(e)=>{
+        <input type="text" onChange={(e)=>{
             setPicture(e.target.value)
           }} />
          </div>
           <div className='d-flex flex-column'>
           <label>Description</label>
-        <input type="text"  onChange={(e)=>{
+        <input type="text" onChange={(e)=>{
             setDescript(e.target.value)
           }} />
           </div>
